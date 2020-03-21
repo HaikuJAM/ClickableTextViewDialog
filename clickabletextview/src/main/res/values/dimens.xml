@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dictionary_dialog_margin">10dp</dimen>
+    <dimen name="dictionary_dialog_padding">8dp</dimen>
+    <dimen name="dictionary_dialog_notch_width">30dp</dimen>
+    <dimen name="dictionary_dialog_notch_height">15dp</dimen>
+    <dimen name="dictionary_dialog_animation_padding">4dp</dimen>
+    <integer name="dictionary_dialog_animation_duration">800</integer>
+</resources>

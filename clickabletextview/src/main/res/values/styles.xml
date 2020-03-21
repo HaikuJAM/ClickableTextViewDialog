@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="anim_from_bottom_with_alpha_dictionary_dialog">
+        <item name="android:windowEnterAnimation">@animator/anim_from_bottom_with_alpha_dictionary</item>
+
+    </style>
+    <style name="dictionary_dialog_default" parent="@android:style/TextAppearance.Medium">
+
+    </style>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClickableTextViewDialog">
+        <attr name="dialog_dismiss_on_inside_touch" format="boolean" />
+        <attr name="dialog_dismiss_on_outside_touch" format="boolean" />
+        <attr name="dialog_modal" format="boolean" />
+        <attr name="dialog_content_view" format="reference" />
+        <attr name="dialog_text_view_id" format="integer" />
+        <attr name="dialog_notch_direction">
+            <flag name="bottom" value="3" />
+            <flag name="left" value="0" />
+            <flag name="right" value="2" />
+            <flag name="top" value="1" />
+            <flag name="auto" value="4" />
+        </attr>
+        <attr name="dialog_gravity" format="integer">
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center_vertical" value="16" />
+            <flag name="clip_horizontal" value="8" />
+            <flag name="clip_vertical" value="128" />
+            <flag name="end" value="8388613" />
+            <flag name="fill" value="119" />
+            <flag name="fill_horizontal" value="7" />
+            <flag name="fill_vertical" value="112" />
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+            <flag name="start" value="8388611" />
+            <flag name="top" value="48" />
+        </attr>
+        <attr name="dialog_max_width" format="float" />
+        <attr name="dialog_show_notch" format="boolean" />
+        <attr name="dialog_notch_drawable" format="integer" />
+        <attr name="dialog_animated" format="boolean" />
+        <attr name="dialog_margin" format="float" />
+        <attr name="dialog_padding" format="float" />
+        <attr name="dialog_animation_padding" format="float" />
+        <attr name="dialog_animation_duration" format="float" />
+        <attr name="dialog_background_color" format="color" />
+        <attr name="dialog_text_color" format="color" />
+        <attr name="dialog_notch_color" format="color" />
+        <attr name="dialog_text_font" format="integer" />
+        <attr name="dialog_notch_height" format="float" />
+        <attr name="dialog_notch_width" format="float" />
+        <attr name="dialog_height" format="float" />
+        <attr name="dialog_width" format="float" />
+        <attr name="dialog_focusable" format="boolean" />
+    </declare-styleable>
+</resources>
